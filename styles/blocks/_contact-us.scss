@@ -1,0 +1,39 @@
+.contact-us {
+  position: relative;
+  padding: 60px 100px 80px;
+  background-color: var(--color-gray);
+  border-radius: var(--border-radius-large);
+  overflow-x: hidden;
+  
+  @include mobile {
+    padding: 45px 50px 30px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    translate: -50% -50%;
+    height: calc(100% - 62px * 2);
+    aspect-ratio: 1;
+    background: url('../../images/contact-us-bg.svg') center/contain no-repeat;
+    
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    max-width: 556px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+}

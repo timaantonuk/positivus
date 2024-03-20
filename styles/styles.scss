@@ -1,0 +1,11 @@
+@import 'normalize', 'fonts', 'mixins', 'media', 'variables', 'utils', 'globals';
+
+@import './blocks/button', './blocks/field', './blocks/radios', './blocks/radio',
+  './blocks/burger-button', './blocks/grid', './blocks/header',
+  './blocks/cross.button', './blocks/section', './blocks/mobile-overlay.scss',
+  './blocks/hero', './blocks/puddle-bg', './blocks/services',
+  './blocks/service-card', './blocks/banner', './blocks/studies',
+  './blocks/_process.scss', './blocks/team', './blocks/team-card',
+  './blocks/pagination', './blocks/reviews', './blocks/review-card',
+  './blocks/contact-us', './blocks/socials', './blocks/subscribe-form',
+  './blocks/footer';
